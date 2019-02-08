@@ -5714,6 +5714,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fembed-bitcode-marker",
 					"-D$(PL_BUILD_CONFIG_FLAG)=1",
 				);
 				PL_APPLETVOS_DEPLOYMENT_TARGET = 9.0;
@@ -5783,6 +5784,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fembed-bitcode",
 					"-D$(PL_BUILD_CONFIG_FLAG)=1",
 				);
 				PL_APPLETVOS_DEPLOYMENT_TARGET = 9.0;
