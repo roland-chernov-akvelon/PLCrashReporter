@@ -5110,6 +5110,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = CrashReporter;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -5133,6 +5134,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = CrashReporter;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
